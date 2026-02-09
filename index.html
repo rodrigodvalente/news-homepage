@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,73 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>News homepage</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <header class="header__box">
+            <img src="./assets/logo.svg" alt="" class="header__logo">
+            <ul class="navbar__box">
+                <li class="navbar__item"><a href="#" class="navbar__link">Home</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">New</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Popular</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Trending</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Categories</a></li>
+            </ul>
+            <img src="./assets/icon-menu.svg" alt="" class="header__menu">
+        </header>
+        <section class="hero__box" aria-label="Important news section">
+            <picture>
+                <source srcset="./assets/image-web-3-desktop.jpg" media="(width >= 700px)">
+                <img src="./assets/image-web-3-mobile.jpg" alt="">
+            </picture>
+            <h1 class="big__title">The Bright Future of Web 3.0?</h1>
+            <p class="big__description">We dive into the next evolution of the web that claims to put the power of the
+                platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <a href="#" class="big__link">read more</a>
+        </section>
+        <aside class="new__box" aria-label="New news">
+            <h2 class="new__title">New</h2>
+            <article class="news__box">
+                <h3 class="news__title">Hydrogen VS Electric Cars</h3>
+                <p class="news__description">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </article>
+            <article class="news__box">
+                <h3 class="news__title">The Downsides of AI Artistry</h3>
+                <p class="news__description">What are the possible adverse effects of on-demand AI image generation?</p>
+            </article>
+            <article class="news__box">
+                <h3 class="news__title">Is VC Funding Drying Up?</h3>
+                <p class="news__description">Private funding by VC firms is down 50% YOY. We take a look at what that
+                    means.</p>
+            </article>
+        </aside>
+        <section class="other__news">
+            <article class="other__box one">
+                <img src="./assets/image-retro-pcs.jpg" alt="" class="other__image">
+                <div class="other__content">
+                    <h4 class="other__number">01</h4>
+                    <h3 class="other__title">Reviving Retro PCs</h3>
+                    <p class="news__description">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </article>
+            <article class="other__box two">
+                <img src="./assets/image-retro-pcs.jpg" alt="" class="other__image">
+                <div class="other__content">
+                    <h4 class="other__number">02</h4>
+                    <h3 class="other__title">Top 10 Laptops of 2022</h3>
+                    <p class="news__description">Our best picks for various needs and budgets.</p>
+                </div>
+            </article>
+            <article class="other__box three">
+                <img src="./assets/image-retro-pcs.jpg" alt="" class="other__image">
+                <div class="other__content">
+                    <h4 class="other__number">03</h4>
+                    <h3 class="other__title">The Growth of Gaming</h3>
+                    <p class="news__description">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </article>
+        </section>
+    </div>
 </body>
+
 </html>
